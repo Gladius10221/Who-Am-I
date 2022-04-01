@@ -1,0 +1,111 @@
+body{
+  background-image: url('media/332.jpg');
+  background-attachment:fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+.body{
+  background: rgba(00, 00, 00, 0.5);
+  width: 100%;
+}
+.header{
+  padding-top: 5px;
+  padding-left: 8%;
+  font-size: 40px;
+  height: 70px;
+  width: 100%;
+  color: white;
+}
+#foto{
+  width: 300px;
+  margin-top: 50px;
+}
+.foto{
+  text-align: center;
+}
+.txt{
+  padding-top: 50px;
+  color: white;
+  font-size: 40px;
+}
+.head-txt{
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+.body-head-txt{
+  width: 150px;
+  text-align: left;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.body-txt{
+  font-size: 20px;
+  line-height: 120%;
+  color: silver;
+}
+.osn-txt{
+  color: white;
+}
+.txt-osn{
+  font-size: 50px;
+  padding-top: 30px;
+}
+.body-txt-osn{
+  font-size: 20px;
+}
+#block{
+  margin-top: 20px;
+}
+@media screen and (max-width: 765px){
+#foto{
+  width: 200px;
+}
+}
+.video{
+  width: 700px;
+  height: 400px;
+}
+.vidos{
+  margin-top: 40px;
+  text-align: center;
+}
+@media screen and (max-width: 775px){
+.video{
+  width: 500px;
+  height: 200px;
+}
+}
+@media screen and (max-width: 530px){
+.video{
+  width: 300px;
+  height: 150px;
+}
+}
+.podhead{
+  color: grey;
+  font-size: 20px;
+  line-height: 8px;
+}
+.fotka{
+  height: 170px;
+  margin-top: 30px;
+}
+.volk{
+  text-align: center
+}
+@media screen and (max-width: 1250px){
+.fotka{
+  height: 140px;
+}
+}
+@media screen and (max-width: 1010px){
+.fotka{
+  height: 110px;
+}
+}
+@media screen and (max-width: 756px){
+.fotka{
+  height: 140px;
+}
+}
