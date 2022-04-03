@@ -16,6 +16,7 @@ body{
   height: 70px;
   width: 100%;
   color: white;
+  text-align: left;
 }
 #foto{
   width: 300px;
@@ -28,6 +29,7 @@ body{
   padding-top: 50px;
   color: white;
   font-size: 40px;
+  text-align: left;
 }
 .head-txt{
   text-align: center;
@@ -38,6 +40,7 @@ body{
   text-align: left;
   font-size: 30px;
   margin-top: 10px;
+  text-align: left;
 }
 .body-txt{
   font-size: 20px;
@@ -52,6 +55,7 @@ body{
   padding-top: 30px;
 }
 .body-txt-osn{
+  text-align: left;
   font-size: 20px;
 }
 #block{
@@ -107,5 +111,57 @@ body{
 @media screen and (max-width: 756px){
 .fotka{
   height: 140px;
+}
+}
+.head-com{
+  text-align: left;
+  color: white;
+  font-size: 50px;
+  margin-top: 20px;
+  border-top: 1px solid grey;
+}
+.often_block{
+  display: none;
+  width: 700px;
+  height:  400px;
+  position: fixed;
+  margin-left: 20%;
+  margin-top: 10%;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+#circle{
+  height: 50px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 60px;
+  background: white;
+}
+@media screen and (max-width: 1107px){
+.often_block{
+  margin-left: 15%;
+  margin-top: 10%;
+}
+}
+@media screen and (max-width: 880px){
+.often_block{
+  margin-left: 10%;
+  margin-top: 20%;
+}
+}
+@media screen and (max-width: 780px){
+.often_block{
+  margin-top: 25%;
+  width: 600px;
+  height:  300px;
+}
+}
+@media screen and (max-width: 700px){
+.often_block{
+  margin-left: 3%;
+  margin-top: 30%;
+  width: 600px;
+  height:  300px;
 }
 }
